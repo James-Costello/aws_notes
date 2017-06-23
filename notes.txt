@@ -1,1 +1,15 @@
-EBS
+EC2 is instance storage vs EBS which is block storage
+EBS allows for OS, etc
+
+EBS Volume Types:
+SSD, non sequential data, NOSQL...up to 20,000 IOPS
+HDD, magnetic and sequential, data warehouses, big data
+Magnetic (Standard, cheapest) cold hard disk drive
+
+Security Group Notes:
+-All Inbound Traffic is Blocked by Default
+-All Outbound Trafic is allowed
+-Changes to security groups take effect immediately
+-You can have any number of EC2 instances within a group
+-Security groups are STATEFUL
+If you want to block specific IP addresses usr Network Access Control Lists
