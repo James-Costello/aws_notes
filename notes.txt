@@ -13,3 +13,11 @@ Security Group Notes:
 -You can have any number of EC2 instances within a group
 -Security groups are STATEFUL
 If you want to block specific IP addresses usr Network Access Control Lists
+
+Exam Tips
+-EBS Volumes can be changed on the fly (except for magnetic std)
+-Best practice to EC2 instance adn then change volume
+-You can change volume types by taking a snapshot and tehn using the snapshot to create a new volume
+-change a volume on the fly requires 6/hr wait
+-you can scale EBS volumnes up only
+-Volumes must be in the same AZ as the EC2 instances
