@@ -20,4 +20,6 @@ Exam Tips
 -You can change volume types by taking a snapshot and tehn using the snapshot to create a new volume
 -change a volume on the fly requires 6/hr wait
 -you can scale EBS volumnes up only
--Volumes must be in the same AZ as the EC2 instances
+-Volumes must be in the same AZ (availability zones) as the EC2 instances
+
+V
