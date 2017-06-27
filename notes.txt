@@ -22,4 +22,4 @@ Exam Tips
 -you can scale EBS volumnes up only
 -Volumes must be in the same AZ (availability zones) as the EC2 instances
 
-V
+
