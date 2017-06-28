@@ -1,3 +1,19 @@
+IAM
+-centralized control of AWS account
+-Shared Access to your AWS account
+-Granular Permissions
+-Identity Federation (so dumb)...faceberg, chainedin
+-multifacotr authentication
+-provide temp access for developers
+-set up passwords
+
+IAM - critical terms
+
+-users - end users (ppl)
+-groups - a collection of users
+-roles - you create roles and assign to EC2 instance, that EC2 instance can interact with S3
+-policies - permissions
+
 EC2 is instance storage vs EBS which is block storage
 EBS allows for OS, etc
 
