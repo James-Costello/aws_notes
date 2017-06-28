@@ -14,6 +14,31 @@ IAM - critical terms
 -roles - you create roles and assign to EC2 instance, that EC2 instance can interact with S3
 -policies - permissions
 
+S3 -101
+-Simple Storage Service
+-a place to store files in the cloud
+-object base vs block base
+- object storage = flat files, videos, word docs, images, etc NOT OS
+- spread across multiple facilities and devices
+
+Basics
+-FIles can be from 0 bytes to 5TB
+-unlimited storage
+-files are stored in buckets (folders)
+-S3 is a universal name space, need a unique name
+- s3-us-west-1.amazonaws.com/namefors#
+- when uploading a file to S3 you will receive a HTTP 200 code
+
+Data consistency model for S3
+-read after write is instantaneous
+editing or deleting takes time to propigate and be consistent across facilities
+
+S3 is a simple key, value store
+-object based storage: key (name) = value (data as sequence of bytes)
+-Version ID & metadata
+
+EC2
+
 EC2 is instance storage vs EBS which is block storage
 EBS allows for OS, etc
 
