@@ -36,6 +36,20 @@ editing or deleting takes time to propigate and be consistent across facilities
 S3 is a simple key, value store
 -object based storage: key (name) = value (data as sequence of bytes)
 -Version ID & metadata
+-data is stored lexicographical....adding a random letter or number with spread out the files, avoid bottlenecks
+-subresources = 1) access control lists (fine grain permissions), 2) Torrent (Bit torrent protocol)
+
+More Basics
+-built for 99.99% availability for the S3 platform
+-transfer acceleration etc
+
+Tip: S3 FAQ as a resource before exam
+
+Cross Region Replication
+-You can do it within an existing bucket,
+-but it only applies to new objects/files/changes
+-so you must
+
 
 EC2
 
