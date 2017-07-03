@@ -1,1 +1,14 @@
 CloudFront and Encryption
+
+Encryption -
+-In transit
+-(SSL/TLS), https
+
+At Rest
+-Server Side Encryption
+-S3 Managed Keys SSE-S3
+-AWS Key Managment Service, Managed Keys SSE-KMS (envelope key protects other keys, audit trails allow you to see who is encrypting what, etc)
+-Server Side Encryption with Customer Provided Keys SSE-C
+
+Client Side Encryption
+-Encrypt and upload baby.
