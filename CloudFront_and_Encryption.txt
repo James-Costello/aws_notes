@@ -12,3 +12,20 @@ At Rest
 
 Client Side Encryption
 -Encrypt and upload baby.
+
+///////////////////
+//STORAGE GATEWAY//
+///////////////////
+
+Defined: A service that connects and on-premises software appliance with cloud-based storage to provide
+seamless and secure integration between an organizations on-premises It environment
+and AWS's storage infrastructure. The serie enables you to securely store data to the AWS cloud for scalable and cost-effective storage.
+
+Basically install a virtual client, on your hypervisor, asynchronously propogate your data up to AWS cloud.
+
+Four Types of Storage Gateway
+-File Gateway (NFS) NETWORK FILE SYSTEM - Flat files, pdfs, word, etc
+-Volume Gateway (iSCSi) block based storage, virtual hard disk, operating systems etc
+1)Stored Volumes
+2)Cached Volumes
+-TapeGateway (VTL)
