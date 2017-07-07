@@ -29,3 +29,8 @@ Four Types of Storage Gateway
 1)Stored Volumes
 2)Cached Volumes
 -TapeGateway (VTL)
+
+Snowball = Fortune 500 companies shipping exabytes of data
+
+S3 Transfer Acceleration
+-utilize edge locations, optimized
